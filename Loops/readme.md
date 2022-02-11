@@ -11,3 +11,10 @@
 9. strong number
 10. Counting number of digit in a number
 
+# Nested loop related Programs 
+- Pattern
+    - triangle type pattern 
+    - '*' type pattern etc
+- series 
+    - Fibonacchi pattern 
+    

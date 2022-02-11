@@ -14,8 +14,10 @@ int main(){
 
         for (column = 1; column<=row;column++){ 
             cout<<" "<<column;  // if we put endl here, we will not get the pattern like triangle
+            // cout<<" * "; //to print * pattern
         }
-        cout<<endl; //After eadh iteration in outer loop, there will be a newline. 
+        cout<<endl; //After eadh iteration in outer loop, there will be a newline.
+
 
         /* Let's say, when row =1 in outer loop, inner loop will execute & value of column is 1.
             as in inner loop column<=row, we only get 1 in inner loop in 1st iteration.
