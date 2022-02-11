@@ -24,5 +24,12 @@ when assigning value to array, we use curly braces.
 ```c++ 
 cout<<numbers[1];
 ```
+This will give us the output 54.  
+
+**Modifying array using index**
+> we can modify array using index number. `numbers[1] = 25;` will replace the value 54, which is 2nd index.
  
+
+___
+
 
