@@ -49,6 +49,21 @@ ___
 
 ## 2D Array : Two dimentional array
 
+## table of Contents
+
+| Sl: | Content / program |
+| ----------- | ----------- |
+| 1 | Introduction to 2D array |
+| 2 | Getting input for 2D array |
+| 3 | Simple Matrix |
+| 4 | Matrix Addition & Subtraction |
+| 5 | Matrix Multiplication |
+| 6 | Transpose Matrix |
+| 7 | Sum of Diagonal Elements of a Matrix |
+| 8 | Sum of Upper & lower triangles of a Matrix |
+
+<br>
+
 **How to declare 2D array ?**  
 
 >Two dimentonal Array Decleration
