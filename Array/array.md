@@ -49,5 +49,15 @@ ___
 
 ## 2D Array : Two dimentional array
 
+**How to declare 2D array ?**  
+
+>Two dimentonal Array Decleration
+
+```c++
+//data_type array_name[row_size][column_size]
+
+int two_D_array[2][3];
+```
+> Number of the elements = rows * columns = 2*3 = 6
 
 
