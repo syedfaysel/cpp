@@ -1,11 +1,12 @@
 
+###  Day 1:
 # Introduction to Array 
 
 Array in C++ is little bit similar to list of python.  
 
 **What is array?**  
 
-> Array is a collection of varibale or Data (of same data type)
+> Array is a collection of varibale or Data (of the same data type)
 
 **How to declare an array?**  
 
@@ -31,5 +32,22 @@ This will give us the output 54.
  
 
 ___
+
+###  Day 2:
+
+# Types of Array 
+
+**There are 3 types of an array in C++ :**  
+1. One-dimensional array. 
+> also called **linear array**. `int numbers[10] ` is a one dimentional array. Note: 1 square bracket [ ]
+2. Two-dimensional array.
+> also called **matrix array**. ` int numbers[3][2] ` is a 2D or two dimentional array. Note: 2 square brackets. (it is called matrix array because 1st square bracket is for row and 2nd square bracket is for column)
+3. Multidimensional array. 
+> There are 3D array or more than that. ` int numbers[5][2][3]` is a three dimentional array. Note: 3 square brackets
+
+---
+
+## 2D Array : Two dimentional array
+
 
 
