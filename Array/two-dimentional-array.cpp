@@ -25,8 +25,9 @@ int main(){
     for(int row=0;row<2;row++){
         for(int col=0; col<3;col++){
 
-            cout<<arrayB[row][col]<<endl;
+            cout<<arrayB[row][col]<<" ";
         }
+        cout<<endl; // new line for new row
     }
 
     //way 3 : taking input to a 2d array using loop
@@ -40,7 +41,7 @@ int main(){
 
     for(int i=0;i<x;i++){
         for (int j=0;j<y;j++){
-            cout<<"enter the element of index "<<i<<" "<<j<< "= ";
+            cout<<"enter the element of index arrayC["<<i<<"]["<<j<< "] = ";
             cin>>arrayC[i][j];
         }
     }
@@ -50,6 +51,6 @@ int main(){
 
             cout<<arrayC[i][j]<<" ";
         }
-        
+        cout<<endl;// new line for new row
     }   
 }
