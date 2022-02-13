@@ -11,6 +11,7 @@ Array in C++ is little bit similar to list of python.
 **How to declare an array?**  
 
 > data_type array_name[arraysize]
+> 
 
 ```c++
 int numbers[] = {2,54,12,4,6,34,54,3,8,9};
