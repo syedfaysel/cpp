@@ -65,6 +65,25 @@ int main()
 ```
 > Output to this code : `10 20 30 40 50 `  
 
+<br>
+
+## Recursion
+<br>
+
+**What is Recursion?**
+
+> Recursion is a process where a function can call itself.  
+
+> However, we need to stop the call at a certain condition, otherwise it will be calling infinitely. This particular condition is called ***base case***
+
+2 Important things to remember in Recursion 
+1. Recursive call
+2. Base case
+
+<br>
+
+![Recursion Example](/Function/notes/recursion-example.jpg)
+
 
 
 
