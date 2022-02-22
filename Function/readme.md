@@ -101,7 +101,7 @@ int main(){
     cout<<"value of x"<<x;
 
     display(x){
-        //passing the value of (actual parameter or argument, original x er value change hobe na )
+        //passing the value of (actual parameter or argument, original x er value change hobe na , actual parameter er ekta copy pass hoy)
     }
 
 }
@@ -114,7 +114,7 @@ int main(){
     cout<<"value of x"<<x;
 
     display(&x){
-        //passing the address of x (original x er value change hoye jabe)
+        //passing the address of x (original x er value change hoye jabe cz actual parameter tai pass hoye jacche)
     }
 
 }
