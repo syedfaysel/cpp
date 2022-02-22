@@ -86,6 +86,43 @@ int main()
 
 
 
+## Passing Arguments (to a function)  
+
+> There are 2 ways to pass argument into a function 
+
+1. Pass by value
+2. Pass by Reference
+
+Pass by value: 
+```c++
+int main(){
+
+    int x=10;
+    cout<<"value of x"<<x;
+
+    display(x){
+        //passing the value of (actual parameter or argument, original x er value change hobe na )
+    }
+
+}
+```
+Pass by Reference: 
+```c++
+int main(){
+
+    int x=10;
+    cout<<"value of x"<<x;
+
+    display(&x){
+        //passing the address of x (original x er value change hoye jabe)
+    }
+
+}
+```
+
+
+
+
 
 
 
