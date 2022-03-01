@@ -121,24 +121,18 @@ int main(){
 ```
 
 
-
-
-
-
-
-
-
-
-
-
+---
+---
 
 ## Scope Resolution  
 
 Source code: scope-resolution.cpp, local-variable.cpp, global-variable.cpp
 
-> Before knowing about scope resolution, it's better to understand **local varibale** and **Global Variable**
+> Before knowing about scope resolution, it's better to understand **local varibale** and **Global Variable**  
 
-### Local Varibale: 
+<br>
+
+### Local Variable
 <br>
 
 
@@ -183,6 +177,7 @@ PS D:\Study\Code on VScode\Programming Workspace\C ++ With Anisul\Function>
 
 ### Global Variable   
 
+<br>
 
 ```cpp
 #include<iostream>
@@ -214,6 +209,9 @@ g++ scope-resolution-global-v.cpp -o scope-resolution-global-v } ; if ($?) { .\s
 Global variable x, accessing from main function, x = 10
 Globale varibale x,accessig from customFunction x = 10
 ```
+
+
+### Scope Resolution made clear
 
 <br>
 
