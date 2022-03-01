@@ -6,17 +6,20 @@ using namespace std;
 int main()
 {
 
-    class Student{
-
-        public:
-            int id;
-            double gpa;
-
-
-    };
 
 }
 
+
+class Student{
+
+    public:
+        int id;
+        double gpa;
+
+
+};
+
+---
 
 class className
 {
