@@ -15,4 +15,7 @@ int main(){
     //this x =10 is a local variable, cz it's inside the main function. We can't access this varibale outside this function 
 
     cout<<"local variable from the main function, x = "<<x<<endl;
+
+    //calling the customFunction
+    customFunction();
 }

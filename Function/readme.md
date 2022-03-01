@@ -159,6 +159,9 @@ int main(){
     //this x =10 is a local variable, cz it's inside the main function. We can't access this varibale outside this function 
 
     cout<<"local variable from the main function, x = "<<x<<endl;
+
+    //calling the customFunction 
+    customFunction();
 }
 ```
 
@@ -171,4 +174,34 @@ scope-resolution.cpp:8:71: error: 'x' was not declared in this scope
          cout<<"This variable from the customFunction function, x = "<<x<<endl;
                                                                        ^
 PS D:\Study\Code on VScode\Programming Workspace\C ++ With Anisul\Function>
+```
+
+
+> Now we let's know about **Global Variable**
+
+### Global Variable 
+
+
+```cpp
+#include<iostream>
+using namespace std;
+
+int x = 10; 
+//Notice that, this time, we don't declare the varibale inside the main function. Instead of that, we declare the variable globally, so that everyone (any function) or we can access it from anywhere. 
+
+void customFunction(){
+
+        cout<<"Globale varibale x,accessig from customFunction x = "<<x<<endl;
+        //Now we will not get any error
+}
+
+int main(){
+
+    //No local variable x is declared here. Still we can access the global variable
+    cout<<"Global variable x, accessing from main function, x = "<<x<<endl;
+
+    //calling the customFunction 
+    customFunction();
+}
+
 ```
