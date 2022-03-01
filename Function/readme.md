@@ -177,9 +177,11 @@ PS D:\Study\Code on VScode\Programming Workspace\C ++ With Anisul\Function>
 ```
 
 
-> Now we let's know about **Global Variable**
+> Now we let's know about **Global Variable** 
 
-### Global Variable 
+<br>  
+
+### Global Variable   
 
 
 ```cpp
@@ -204,4 +206,51 @@ int main(){
     customFunction();
 }
 
+```
+
+output: 
+```
+g++ scope-resolution-global-v.cpp -o scope-resolution-global-v } ; if ($?) { .\scope-resolution-global-v }
+
+Global variable x, accessing from main function, x = 10
+Globale varibale x,accessig from customFunction x = 10
+```
+
+<br>
+
+Heading Towards Scope Resolution :  
+**Scope Resoultion Operator: ` :: `**
+
+```cpp
+//Scope Resolution made clear
+
+#include<iostream>
+using namespace std;
+
+int x = 10; //Global variable
+
+void customFunc(){
+
+    cout<<"Global x, accessing from customFunc"<<x<<endl;
+}
+
+int main(){
+
+    int x = 150; // local variable
+    //Same variable for local & global
+    //Which one will be accessed inside the main()?
+
+    cout<<"I am local variable x inside main func - x =" <<x<<endl; // it will print out local varibale x
+
+    cout<<"I am Global variable x inside main func - x =" <<::x<<endl; // it will print out Global varibale x
+    // We access global variable by using scope operator :: when local & global variable has same name.
+    
+}
+```
+
+Output: 
+
+```
+I am local variable x inside main func - x =150
+I am Global variable x inside main func - x =10
 ```
