@@ -134,7 +134,7 @@ int main(){
 
 ## Scope Resolution  
 
-Source code: scope-resolution.cpp
+Source code: scope-resolution.cpp, local-variable.cpp, global-variable.cpp
 
 > Before knowing about scope resolution, it's better to understand **local varibale** and **Global Variable**
 
@@ -205,7 +205,6 @@ int main(){
     //calling the customFunction 
     customFunction();
 }
-
 ```
 
 output: 
@@ -244,7 +243,10 @@ int main(){
 
     cout<<"I am Global variable x inside main func - x =" <<::x<<endl; // it will print out Global varibale x
     // We access global variable by using scope operator :: when local & global variable has same name.
-    
+
+    //we can update the global variable
+    ::x = 20;
+    cout<<"updated Global variable x = "<<::x<<endl;
 }
 ```
 
@@ -253,4 +255,5 @@ Output:
 ```
 I am local variable x inside main func - x =150
 I am Global variable x inside main func - x =10
+updated Global variable x = 20
 ```

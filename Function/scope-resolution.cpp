@@ -20,5 +20,9 @@ int main(){
 
     cout<<"I am Global variable x inside main func - x =" <<::x<<endl; // it will print out Global varibale x
     // We access global variable by using scope operator :: when local & global variable has same name.
+
+    //we can update the global variable
+    ::x = 20;
+    cout<<"updated Global variable x = "<<::x<<endl;
     
 }
