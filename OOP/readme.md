@@ -41,8 +41,39 @@ className objectName;
 
 ```
 
+## Object 
+> C++ is an object-oriented programming language.
+
+> Everything in C++ is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has attributes, such as weight and color, and methods, such as drive and brake.
+
+> Attributes and methods are basically variables and functions that belongs to the class. These are often referred to as "class members".
+
+> A class is a user-defined data type that we can use in our program, and it works as an object constructor, or a "blueprint" for creating objects.
+
 
 ___
 
 Date: 3rd march
 
+## Adding Function to Class 
+
+Functions inside class are also called **method**.
+
+
+```cpp
+//class 
+class Student{
+    public:
+    //everything should be inside public
+    int id;
+    int score;
+    double gpa;
+    
+    //function inside class is also called method
+    void display()
+    {
+        cout<<"id: "<<id<<endl<<"score: "<<score<<endl<<"gpa: "<<gpa<<endl;
+    }
+
+};
+```
