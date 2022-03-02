@@ -82,4 +82,17 @@ class Student{
 ```
 This way we can add function or method to class. 
 
+## Parameterized Function inside class
+
+
+
+```cpp
+    void setValue(int x, int y, int z)
+    {
+        id = x;
+        score = y;
+        gpa = z;
+    }
+```
+
 
