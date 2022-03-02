@@ -57,7 +57,10 @@ Date: 3rd march
 
 ## Adding Function to Class 
 
+source-code: function-in-class.cpp
+
 Functions inside class are also called **method**.
+Look at the code below.
 
 
 ```cpp
@@ -77,3 +80,6 @@ class Student{
 
 };
 ```
+This way we can add function or method to class. 
+
+
