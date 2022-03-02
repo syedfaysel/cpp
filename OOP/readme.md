@@ -1,4 +1,4 @@
-# Yay!! Intro to OOP - Object Oriented Programming 
+# Yay! Intro to OOP - Object Oriented Programming 
 
 learning Date: 1st March, 2022
 
@@ -40,8 +40,10 @@ class className
 className objectName;
 
 ```
+---
 
 ## Object 
+
 > C++ is an object-oriented programming language.
 
 > Everything in C++ is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has attributes, such as weight and color, and methods, such as drive and brake.
@@ -50,6 +52,7 @@ className objectName;
 
 > A class is a user-defined data type that we can use in our program, and it works as an object constructor, or a "blueprint" for creating objects.
 
+<br>
 
 ___
 
@@ -82,6 +85,8 @@ class Student{
 ```
 This way we can add function or method to class. 
 
+---
+
 ## Parameterized Function inside class
 
 
@@ -94,5 +99,37 @@ This way we can add function or method to class.
         gpa = z;
     }
 ```
+<br>
+
+--- 
+
+
+## Constructor  
+
+> Constructor is special type of function that is used to initialize an object. It is used inside a class. In general, constructor name &  the class name is similar. constructor has no type.(no return typer neither void)  e.g. 
+
+```cpp
+class Student
+{
+    public:
+    int id,score, gpa;
+
+    //constructor
+    Student(int x, int y)
+    {
+        id = x;
+        score = y;
+        gpa = z;
+    }
+};
+```
+
+Notice that, the function, `Student()` which is also called constructor of this class, has no type before it. 
+
+> No need to call constructor like other methods or function. It is automatically called when an object is created. 
+
+
+
+
 
 
