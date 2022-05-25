@@ -129,6 +129,15 @@ Notice that, the function, `Student()` which is also called constructor of this 
 > No need to call constructor like other methods or function. It is automatically called when an object is created. 
 
 
+---
+
+
+Date : 7th March
+
+<br>
+
+## Class in Seperate Files
+
 
 
 
