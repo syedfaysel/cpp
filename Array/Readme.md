@@ -1,5 +1,4 @@
 
-###  Day 1:
 # Introduction to Array 
 
 Array in C++ is little bit similar to list of python.  
@@ -18,7 +17,7 @@ int numbers[] = {2,54,12,4,6,34,54,3,8,9};
 here, numbers is a array of integer data type and the size of this array is 10. array is declared by square brackets [ ]  
 when assigning value to array, we use curly braces.
 
-**Accessing an Array**
+## Accessing an Array
 
 > We use indexing to access data from array. in most of the language indexing starts from zero **[0]**. In above mentioned array , we can access 54 by using 
 
@@ -30,19 +29,35 @@ This will give us the output 54.
 **Modifying array using index**
 > we can modify array using index number. `numbers[1] = 25;` will replace the value 54, which is 2nd index.
  
+## Input & output of array elements:  
 
-___
+```c++
+// taking input & storing values in array using loop 
 
-###  Day 2:
+    int marks[5];
+    for (int i=0;i<5;i++){
+        cin>>marks[i];
+    // iterate till the size of array
+
+    }
+    for(int j=0;j<5;j++){
+        cout<<marks[j]<<" ";
+    }
+```
+<br>
+  
+
 
 # Types of Array 
 
 **There are 3 types of an array in C++ :**  
-1. One-dimensional array. 
+1. **One-dimensional array**. 
 > also called **linear array**. `int numbers[10] ` is a one dimentional array. Note: 1 square bracket [ ]
-2. Two-dimensional array.
+
+2. **Two-dimensional array**.
 > also called **matrix array**. ` int numbers[3][2] ` is a 2D or two dimentional array. Note: 2 square brackets. (it is called matrix array because 1st square bracket is for row and 2nd square bracket is for column)
-3. Multidimensional array. 
+
+3. **Multidimensional array.** 
 > There are 3D array or more than that. ` int numbers[5][2][3]` is a three dimentional array. Note: 3 square brackets
 
 ---
