@@ -91,3 +91,12 @@ int two_D_array[2][3];
 > Number of the elements = rows * columns = 2*3 = 6
 
 
+
+<br>
+
+## Explore more about:
+* Memory allocation of array
+* pointer, reference 
+* Size limits of Local and Global array
+
+
