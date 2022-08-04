@@ -1,8 +1,9 @@
 # Yay! Intro to OOP - Object Oriented Programming 
 
 learning Date: 1st March, 2022
+revision: 5th August, 2022
 
-Preknowledge I have - OOP with python, JavaScript
+knowledge I have - OOP with python
 
 ## Basics & Major topics
 * Class
@@ -15,7 +16,7 @@ Preknowledge I have - OOP with python, JavaScript
 
 ## Class 
 
-> Class is a template from which individual ***object*** can be created.
+> Class is a template or frame from which individual ***object*** or instace can be created.
 
 > And any class type variable are called Object.  
 For example `int variableName` is an integer type variable. Same way if a class name is `Student` and we represent an object of Student class type like this `Student Rajo`.   
