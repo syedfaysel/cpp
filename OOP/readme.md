@@ -2,6 +2,7 @@
 
 learning Date: 1st March, 2022
 revision: 5th August, 2022
+Rev 2: 3rd June, 2023
 
 knowledge I have - OOP with python
 
