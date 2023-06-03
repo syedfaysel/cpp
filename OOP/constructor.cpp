@@ -12,7 +12,7 @@ class Student
     public:
     int id,score,gpa;
     
-    //constructor 
+    //constructor (parameterized Constructor)
     Student(int x, int y, double z)
     {
         id = x;

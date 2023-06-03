@@ -130,6 +130,50 @@ Notice that, the function, `Student()` which is also called constructor of this 
 
 > No need to call constructor like other methods or function. It is automatically called when an object is created. 
 
+## Types of Constructor & Constructor Overloading
+1. [Default Constructor](#default-constructor)
+2. [Parameterized Constructor](#parameterized-constructor)
+
+
+
+### Default Constructor
+> If a constructor does not have parameter/s , it is called `default constructor`.
+
+### Parameterized Constructor
+> If a constructor has parameter/s , it is called `paramterized constructor`. more on [this](./constructor.cpp)
+
+i.e
+
+```cpp
+class Student{
+  public:
+    int id;
+    float gpa;
+
+    // default constructor
+    Student(){
+      cout << "This is default constructor\n";
+    }
+
+    // parameterized constructor
+    Student(int x, float y){
+      id = x;
+      gpa = y;
+      cout << "This is parameterized Constructor\n";
+    }
+};
+
+
+int main(){
+  Student Rajo; //default constructor will be called since no argument is passed;
+  Student Faysel(123, 3.41); //parameterized constructor will be called
+
+}
+```
+Check [constructor-overloading.cpp](./constructor-overloading.cpp)
+
+### Constructor Overloading
+>Constructor overloading is based on how and which constructor is called. There can be several constructors with differnt parameters in a class. Based on how many arguments are passed, the right constructor will be called. This is how constructor overloading is achieved.
 
 ---
 
@@ -139,6 +183,9 @@ Date : 7th March
 <br>
 
 ## Class in Seperate Files
+
+
+## Destructor
 
 
 
